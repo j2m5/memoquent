@@ -1,0 +1,21 @@
+{
+  "name": "memoquent",
+  "version": "1.0.0",
+  "description": "Funny TypeScript ORM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "memoquent"
+  },
+  "author": "Dmitry",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.2.2"
+  }
+}

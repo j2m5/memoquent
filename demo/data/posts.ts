@@ -1,4 +1,4 @@
-import { IPost } from '@demo/types'
+import { IPost } from '../types'
 
 export const Posts: IPost[] = [
     {

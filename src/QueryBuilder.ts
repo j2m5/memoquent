@@ -1,5 +1,5 @@
-import { DataSource, Model, ModelConstructor } from '@/Model'
-import { Collection } from '@/Collection'
+import { DataSource, Model, ModelConstructor } from './Model'
+import { Collection } from './Collection'
 
 class QueryBuilder<TData extends DataSource, TModel extends Model<TData>> {
   private _conditions?: Partial<TData>

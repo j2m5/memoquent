@@ -1,9 +1,9 @@
-import { Model } from '@/Model'
-import { IPost } from '@demo/types'
-import { belongsTo, hasMany } from '@/decorators'
-import { Category } from '@demo/models/Category'
-import { User } from '@demo/models/User'
-import { Comment } from '@demo/models/Comment'
+import { Model } from '../../src/Model'
+import { IPost } from '../types'
+import { belongsTo, hasMany } from '../../src/decorators'
+import { Category } from './Category'
+import { User } from './User'
+import { Comment } from './Comment'
 
 class Post extends Model<IPost> {
     protected table: string = 'posts'

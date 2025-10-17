@@ -14,16 +14,15 @@
     "allowSyntheticDefaultImports": true,
     "useDefineForClassFields": true,
     "noUnusedParameters": false,
+    "allowJs": true,
+    "checkJs": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
+    "esModuleInterop": true,
     "skipLibCheck": true,
-    "rootDir": ".",
+    "rootDir": "./",
     "baseUrl": ".",
-    "outDir": "./dist",
-    "paths": {
-      "@/*": ["src/*"],
-      "@demo/*": ["demo/*"]
-    }
+    "outDir": "./dist"
   },
   "include": ["src/**/*", "demo/**/*"],
   "exclude": ["node_modules", "dist" ]

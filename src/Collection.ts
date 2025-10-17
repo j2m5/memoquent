@@ -1,4 +1,4 @@
-import { DataSource, Model } from '@/Model'
+import { DataSource, Model } from './Model'
 
 class Collection<TModel extends Model<any>> implements Iterable<TModel> {
   public constructor(protected items: TModel[] = []) {}

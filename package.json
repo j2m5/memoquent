@@ -2,10 +2,12 @@
   "name": "memoquent",
   "version": "1.0.0",
   "description": "Funny TypeScript ORM",
-  "main": "dist/demo/main.js",
+  "main": "demo/main.ts",
   "type": "module",
   "scripts": {
-    "demo": "npx serve"
+    "dev": "tsx --watch demo/main.ts",
+    "build": "tsc",
+    "start": "node dist/demo/main.js"
   },
   "repository": {
     "type": "git",
@@ -14,6 +16,7 @@
   "author": "Dmitry",
   "license": "ISC",
   "devDependencies": {
+    "tsx": "^4.20.6",
     "typescript": "^5.9.3"
   },
   "dependencies": {

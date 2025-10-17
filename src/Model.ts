@@ -1,8 +1,8 @@
 import 'reflect-metadata'
-import { getData } from '@/config'
-import { LazyRelationProxy } from '@/LazyRelationProxy'
-import { QueryBuilder } from '@/QueryBuilder'
-import { Collection } from '@/Collection'
+import { getData } from './config'
+import { LazyRelationProxy } from './LazyRelationProxy'
+import { QueryBuilder } from './QueryBuilder'
+import { Collection } from './Collection'
 
 export type Identity = Record<string, number>
 export type DataSource = Record<string, any>

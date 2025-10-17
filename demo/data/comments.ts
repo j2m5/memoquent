@@ -1,4 +1,4 @@
-import { IComment } from '@demo/types'
+import { IComment } from '../types'
 
 export const Comments: IComment[] = [
     {

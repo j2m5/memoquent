@@ -1,8 +1,8 @@
 import { Model } from '@/Model'
-import { IComment } from '../types'
+import { IComment } from '@demo/types'
 import { belongsTo } from '@/decorators'
-import { Post } from './Post'
-import { User } from './User'
+import { Post } from '@demo/models/Post'
+import { User } from '@demo/models/User'
 
 class Comment extends Model<IComment> {
     protected table: string = 'comments'

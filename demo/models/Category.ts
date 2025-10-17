@@ -1,7 +1,7 @@
 import { Model } from '@/Model'
-import { ICategory } from '../types'
+import { ICategory } from '@demo/types'
 import { hasMany } from '@/decorators'
-import { Post } from './Post'
+import { Post } from '@demo/models/Post'
 
 class Category extends Model<ICategory> {
     protected table: string = 'categories'

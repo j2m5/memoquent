@@ -21,11 +21,10 @@
     "baseUrl": ".",
     "outDir": "./dist",
     "paths": {
-      "@/*": [
-        "src/*"
-      ]
+      "@/*": ["src/*"],
+      "@demo/*": ["demo/*"]
     }
   },
   "include": ["src/**/*", "demo/**/*"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "dist" ]
 }

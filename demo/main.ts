@@ -1,4 +1,4 @@
-import { Category } from './models/Category'
+import { Category } from '@demo/models/Category'
 
 const category = Category.find(2)
 

@@ -2,9 +2,11 @@
   "name": "memoquent",
   "version": "1.0.0",
   "description": "Funny TypeScript ORM",
-  "main": "demo/main.ts",
+  "main": "dist/demo/main.js",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "demo": "npx serve"
+  },
   "repository": {
     "type": "git",
     "url": "memoquent"

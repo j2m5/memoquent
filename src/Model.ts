@@ -35,7 +35,7 @@ abstract class Model<TData extends DataSource = DataSource> {
   private _relationCache: Map<string, any> = new Map<string, any>()
   private _relationProxies: Map<string, LazyRelationProxy<any>> = new Map<string, LazyRelationProxy<any>>()
 
-  protected constructor(attributes: Partial<TData> = {}) {
+  public constructor(attributes: Partial<TData> = {}) {
     this.attributes = attributes
     this.setupRelations()
   }

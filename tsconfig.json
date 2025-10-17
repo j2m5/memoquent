@@ -2,11 +2,8 @@
   "compilerOptions": {
     "module": "ESNext",
     "target": "ES2022",
-    "lib": ["ES2022"],
+    "lib": ["ES2022", "dom"],
     "types": [],
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
     "moduleResolution": "node",
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
@@ -17,11 +14,11 @@
     "allowSyntheticDefaultImports": true,
     "useDefineForClassFields": true,
     "noUnusedParameters": false,
-    "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
-    "rootDir": "./src",
+    "rootDir": ".",
+    "baseUrl": ".",
     "outDir": "./dist",
     "paths": {
       "@/*": [
@@ -29,5 +26,6 @@
       ]
     }
   },
+  "include": ["src/**/*", "demo/**/*"],
   "exclude": ["node_modules"]
 }

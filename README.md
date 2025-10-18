@@ -78,3 +78,4 @@ console.log(posts)
 
 console.log(users)
 ```
+Полный пример работы с библиотеков в папке demo

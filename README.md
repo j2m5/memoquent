@@ -8,6 +8,7 @@
 
 Пример модели
 
+```
 import { Model } from '../../src/Model'
 import { IPost } from '../types'
 import { belongsTo, hasMany } from '../../src/decorators'
@@ -29,9 +30,11 @@ class Post extends Model<IPost> {
 }
 
 export { Post }
+```
 
 Пример использования
 
+```
 import { Category } from './models/Category'
 import { Post } from './models/Post'
 import { User } from './models/User'
@@ -47,3 +50,4 @@ console.log(category)
 console.log(posts)
 
 console.log(users)
+```

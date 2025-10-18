@@ -6,7 +6,7 @@
 
 На данный момент имеется 3 типа отношений - HasOne, HasMany, BelongsTo
 
-Пример конфигураци с привязкой данных
+Пример конфигурации с привязкой данных
 
 ```
 import { Categories } from '../demo/data/categories'

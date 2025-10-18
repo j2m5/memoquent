@@ -1,6 +1,6 @@
 import { Category } from './models/Category'
 import { Post } from './models/Post'
-import {User} from "./models/User";
+import { User } from './models/User'
 
 const category = Category.withRelations('posts').find(2)?.toJSON()
 

@@ -35,7 +35,7 @@ export function getData<TData>(table: string): TData[] {
 
 Пример модели
 
-```
+```ts
 import { Model } from '../../src/Model'
 import { IPost } from '../types'
 import { belongsTo, hasMany } from '../../src/decorators'
@@ -61,7 +61,7 @@ export { Post }
 
 Пример использования
 
-```
+```ts
 import { Category } from './models/Category'
 import { Post } from './models/Post'
 import { User } from './models/User'

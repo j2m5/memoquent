@@ -8,7 +8,7 @@
 
 Пример конфигурации с привязкой данных
 
-```
+```ts
 import { Categories } from '../demo/data/categories'
 import { Posts } from '../demo/data/posts'
 import { Comments } from '../demo/data/comments'
